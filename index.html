@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#344d3e">
+  <meta name="description" content="Ankommen und durchatmen: Ferienwohnungen Gauder in Spangenberg-Pfieffe. Wohnungen für bis zu 3, 4 und 7 Personen – für Urlaub, Familien und berufliche Aufenthalte.">
+  <meta property="og:title" content="Ferienwohnungen Gauder · Eine Auszeit im Pfieffetal">
+  <meta property="og:description" content="Drei Ferienwohnungen. Viel Natur. Persönlich willkommen in Spangenberg-Pfieffe.">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Ferienwohnungen Gauder · Ankommen im Pfieffetal</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Ferienwohnungen Gauder – Startseite">
+        <svg class="brand-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M7 26 24 11l17 15M12 23v18h24V23M20 41V29h8v12M7 41h34M29 15V8h7v13"/><path d="M3 32c3-2 6-2 9 0M36 32c3-2 6-2 9 0"/></svg>
+        <span><span class="brand-name">gauder<span class="brand-dot">.</span></span><span class="brand-subtitle">FERIENWOHNUNGEN</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation"><span>Menü</span><span class="menu-lines" aria-hidden="true"></span></button>
+      <nav id="navigation" class="main-nav" aria-label="Hauptnavigation">
+        <a href="#wohnungen">Die Wohnungen</a><a href="#umgebung">Das Pfieffetal</a><a href="#gastgeber">Über uns</a><a class="button button-small" href="#anfrage">Auszeit anfragen <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/weide.webp" width="1094" height="821" alt="Weidende Kühe und weite grüne Hügel im Pfieffetal" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light"><span class="tiny-sun" aria-hidden="true">✳</span> SPANGENBERG-PFIEFFE · NORDHESSEN</p>
+        <h1 id="hero-title">Einfach ankommen.<br><em>Und durchatmen.</em></h1>
+        <p class="hero-intro">Ein Zuhause auf Zeit. Zwischen Fachwerk,<br class="desktop-break"> grünen Hügeln und der Ruhe des Pfieffetals.</p>
+        <a class="hero-link" href="#wohnungen">Unsere Ferienwohnungen entdecken <span aria-hidden="true">↓</span></a>
+      </div>
+      <span class="hero-caption"><span aria-hidden="true">⌖</span> Ein kleiner Einblick in unsere Heimat</span>
+    </section>
+
+    <div class="stay-wrap section-width">
+      <form class="stay-form" id="stay-form" hidden>
+        <div class="stay-greeting"><span class="eyebrow">ZEIT FÜR EINE AUSZEIT</span><strong>Wann dürfen wir<br>Sie begrüßen?</strong></div>
+        <label>Anreise<input type="date" name="arrival" id="quick-arrival" aria-label="Gewünschte Anreise"></label>
+        <label>Abreise<input type="date" name="departure" id="quick-departure" aria-label="Gewünschte Abreise"></label>
+        <label>Gäste<select name="guests" id="quick-guests"><option value="2">2 Personen</option><option value="1">1 Person</option><option value="3">3 Personen</option><option value="4">4 Personen</option><option value="5">5 Personen</option><option value="6">6 Personen</option><option value="7">7 Personen</option><option value="8">Mehr als 7</option></select></label>
+        <button class="button" type="submit">Aufenthalt anfragen <span aria-hidden="true">↗</span></button>
+        <p class="stay-note">Unverbindlich anfragen. Verfügbarkeit und Preise erhalten Sie persönlich von uns.</p>
+      </form>
+      <noscript><p style="padding:24px;background:#fffefa;border:1px solid #dcded3"><a href="#anfrage">Ihren Aufenthalt direkt per E-Mail oder Telefon anfragen →</a></p></noscript>
+    </div>
+
+    <section class="intro section-width section-space" aria-labelledby="intro-title">
+      <div><p class="eyebrow">WILLKOMMEN BEI FAMILIE GAUDER</p><h2 id="intro-title">Ein bisschen raus.<br><em>Ein bisschen zu Hause.</em></h2></div>
+      <div class="intro-copy"><p>Den Alltag hinter sich lassen. Zusammen frühstücken. Draußen neue Lieblingswege entdecken. In unseren Ferienwohnungen in Spangenberg-Pfieffe ist Platz für Ihre ganz eigene Auszeit.</p><p>Ob allein, zu zweit, mit der Familie oder beruflich unterwegs: Bei uns wohnen Sie im Fachwerkhaus, mitten im Kurhessischen Bergland.</p><a class="text-link" href="#gastgeber">Lernen Sie uns kennen <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="apartments-section" id="wohnungen" aria-labelledby="apartments-title">
+      <div class="section-width">
+        <div class="section-heading"><div><p class="eyebrow">DREI WOHNUNGEN. IHR LIEBLINGSPLATZ.</p><h2 id="apartments-title">Hier lässt es sich <em>bleiben.</em></h2></div><p>Von der kleinen Auszeit bis zum Urlaub<br class="desktop-break"> mit allen, die dazugehören.</p></div>
+        <div class="apartment-grid">
+          <article class="apartment" id="wohnung-3">
+            <a class="apartment-image gallery-trigger" href="assets/wohnung-3-kueche.webp" data-gallery="three" data-index="0" aria-label="Fotos der Ferienwohnung für bis zu 3 Personen ansehen"><img src="assets/wohnung-3-kueche.webp" width="1075" height="806" alt="Wohnküche mit Holzbalken und rundem Esstisch in der Wohnung für bis zu 3 Personen" loading="lazy"><span class="capacity">BIS ZU 3 PERSONEN</span><span class="photo-link">3 Fotos ansehen <span aria-hidden="true">↗</span></span></a>
+            <div class="apartment-body"><p class="apartment-number">01 / GEMÜTLICH ANKOMMEN</p><h3>Die kleine Auszeit</h3><p>Ein gemütlicher Rückzugsort mit eigener Wohnküche. Für Alleinreisende, Paare und kleine Familien.</p><ul class="apartment-features"><li>Eigene Küche</li><li>Dusche &amp; WC</li><li>Internet</li></ul>
+              <details class="apartment-details"><summary>Ausstattung im Detail <span aria-hidden="true">+</span></summary><div><p>Küche mit Herd, Backofen, Geschirrspüler, Mikrowelle, Kühlschrank mit Gefrierfach, Kaffeemaschine, Wasserkocher und Toaster.</p><p>Bettwäsche, Bade- und Geschirrhandtücher sind vorhanden. Dazu SAT-TV sowie Parkett- und Laminatböden.</p></div></details>
+              <a class="text-link apartment-cta" href="#anfrage" data-apartment="3">Wohnung anfragen <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="apartment" id="wohnung-4">
+            <a class="apartment-image gallery-trigger" href="assets/wohnung-4-wohnen.webp" data-gallery="four" data-index="0" aria-label="Fotos der Ferienwohnung für bis zu 4 Personen ansehen"><img src="assets/wohnung-4-wohnen.webp" width="1075" height="806" alt="Heller Wohnbereich mit Sofa und Holzbalken in der Wohnung für bis zu 4 Personen" loading="lazy"><span class="capacity">BIS ZU 4 PERSONEN</span><span class="photo-link">4 Fotos ansehen <span aria-hidden="true">↗</span></span></a>
+            <div class="apartment-body"><p class="apartment-number">02 / ZUSAMMEN WOHLFÜHLEN</p><h3>Zeit für uns</h3><p>Raum für gemeinsame Tage und entspannte Abende. Mit eigener Küche und gemütlichen Schlafplätzen.</p><ul class="apartment-features"><li>Eigene Küche</li><li>Dusche &amp; WC</li><li>Internet</li></ul>
+              <details class="apartment-details"><summary>Ausstattung im Detail <span aria-hidden="true">+</span></summary><div><p>Küche mit Herd, Backofen, Geschirrspüler, Mikrowelle, Kühlschrank mit Gefrierfach und allem für den Frühstückskaffee.</p><p>Bettwäsche, Bade- und Geschirrhandtücher sowie SAT-TV sind vorhanden. Gern besprechen wir die passende Bettenaufteilung mit Ihnen.</p></div></details>
+              <a class="text-link apartment-cta" href="#anfrage" data-apartment="4">Wohnung anfragen <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="apartment" id="wohnung-7">
+            <a class="apartment-image gallery-trigger" href="assets/wohnung-7-kueche.webp" data-gallery="seven" data-index="0" aria-label="Fotos der Ferienwohnung für bis zu 7 Personen ansehen"><img src="assets/wohnung-7-kueche.webp" width="1000" height="667" alt="Große Küche mit Esstisch und Sitzplätzen in der Wohnung für bis zu 7 Personen" loading="lazy"><span class="capacity">BIS ZU 7 PERSONEN</span><span class="photo-link">4 Fotos ansehen <span aria-hidden="true">↗</span></span></a>
+            <div class="apartment-body"><p class="apartment-number">03 / ALLE UNTER EINEM DACH</p><h3>Platz für alle</h3><p>Unsere größte Ferienwohnung für Familien und gemeinsame Reisen. Mit zwei großen Balkonen zum Durchatmen.</p><ul class="apartment-features"><li>Eigene Küche</li><li>2 Balkone</li><li>Internet</li></ul>
+              <details class="apartment-details"><summary>Ausstattung im Detail <span aria-hidden="true">+</span></summary><div><p>Voll ausgestattete Küche mit Geschirrspüler, Backofen, Herd, Mikrowelle und Kühlschrank mit Gefrierfach. Badezimmer mit Dusche und WC.</p><p>Einer der Balkone ist überdacht und mit einer Tischgruppe ausgestattet. Bettwäsche, Bade- und Geschirrhandtücher sowie SAT-TV sind vorhanden.</p></div></details>
+              <a class="text-link apartment-cta" href="#anfrage" data-apartment="7">Wohnung anfragen <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+        <p class="apartments-note"><span aria-hidden="true">↳</span> Sie reisen mit mehr Personen? Zusätzliche Schlafzimmer sind auf Anfrage gegen Aufpreis buchbar. <a href="#anfrage">Sprechen Sie uns an.</a></p>
+        <div class="amenities" aria-label="Ausstattung unserer Ferienwohnungen">
+          <div><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 5v10h8V5M8 5v23M23 5c-5 7-5 11 0 12h3V5h-3Zm3 12v11"/></svg><span>Selbst kochen.<small>Voll ausgestattete Küchen</small></span></div>
+          <div><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 12a20 20 0 0 1 26 0M7 17a14 14 0 0 1 18 0M12 22a6 6 0 0 1 8 0"/><circle cx="16" cy="27" r="1"/></svg><span>Verbunden bleiben.<small>Internet in den Wohnungen</small></span></div>
+          <div><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 25V12h24v13M4 21h24M7 12V6h18v6M8 16h5M19 16h5M4 25v3M28 25v3"/></svg><span>Leichter packen.<small>Bettwäsche &amp; Handtücher</small></span></div>
+          <div><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="3" width="22" height="26" rx="3"/><path d="M13 24V9h5a5 5 0 0 1 0 10h-5"/></svg><span>Entspannt anreisen.<small>Kostenfreie Parkplätze</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="region section-width section-space" id="umgebung" aria-labelledby="region-title">
+      <div class="region-photos"><a class="gallery-trigger region-large" href="assets/pfieffe.webp" data-gallery="region" data-index="0" aria-label="Bilder aus dem Pfieffetal ansehen"><img src="assets/pfieffe.webp" width="1094" height="821" alt="Blick unter einer Birke auf Pfieffe und die umliegenden Felder" loading="lazy"><span class="image-label">UNSER PFIEFFETAL</span></a><a class="gallery-trigger region-small" href="assets/pfieffetal.webp" data-gallery="region" data-index="1" aria-label="Weitere Landschaftsfotos ansehen"><img src="assets/pfieffetal.webp" width="1057" height="792" alt="Grüne Felder und Bauernhöfe im Pfieffetal" loading="lazy"><span class="photo-link">Die Gegend entdecken ↗</span></a><div class="region-caption">Draußen ist es<br><em>am schönsten.</em></div></div>
+      <div class="region-copy"><p class="eyebrow">DAS GUTE LIEGT SO NAH</p><h2 id="region-title">Weniger Alltag.<br><em>Mehr draußen.</em></h2><p>Sanfte Hügel, Fachwerk und Wege, auf denen man den Kopf frei bekommt. Pfieffe liegt im Kurhessischen Bergland, am Rand des Stölzinger Gebirges.</p><div class="region-item"><span>01</span><div><h3>Schritt für Schritt abschalten</h3><p>Die Wege von ARS NATURA und der Jakobsweg führen durch Pfieffe. Beste Voraussetzungen, um einfach loszugehen.</p></div></div><div class="region-item"><span>02</span><div><h3>Fachwerk &amp; kleine Entdeckungen</h3><p>Spangenberg mit seinem Schloss und die Fachwerkstadt Melsungen laden zu Ausflügen ein.</p></div></div><div class="region-item"><span>03</span><div><h3>Zu jeder Jahreszeit schön</h3><p>Grüne Wiesen im Sommer, ruhige Tage im Winter. Unsere Ferienwohnungen sind das ganze Jahr über für Sie da.</p></div></div></div>
+    </section>
+
+    <section class="work-stay section-width" aria-labelledby="work-title"><div class="work-symbol" aria-hidden="true">⌂</div><div><p class="eyebrow">AUCH BERUFLICH GUT ANKOMMEN</p><h2 id="work-title">Ihr Zuhause nach Feierabend.</h2><p>Sie arbeiten vorübergehend in der Region? Unsere Wohnungen eignen sich auch für Monteure und Pendler. Fragen Sie Ihren gewünschten Zeitraum direkt bei uns an.</p></div><a class="button button-outline" href="#anfrage" data-purpose="Beruflicher Aufenthalt">Aufenthalt besprechen <span aria-hidden="true">↗</span></a></section>
+
+    <section class="hosts section-width section-space" id="gastgeber" aria-labelledby="hosts-title"><div class="hosts-copy"><p class="eyebrow">PERSÖNLICH. UNKOMPLIZIERT. GAUDER.</p><h2 id="hosts-title">Schön, dass Sie<br><em>zu uns finden.</em></h2><p>Wir möchten, dass Sie sich bei uns wohlfühlen. Deshalb finden wir gerne gemeinsam mit Ihnen die passende Wohnung und sind bei Fragen zu Ihrem Aufenthalt persönlich für Sie da.</p><p>Bei Ihrer Ankunft erhalten Sie Informationen und Anregungen für Ausflüge in die Umgebung. Den Rest entscheiden Sie: raus in die Natur oder einfach einen ruhigen Tag genießen.</p><div class="host-signature"><span>Sylke Gauder</span><small>Ihre Ansprechpartnerin</small></div><a class="text-link" href="tel:+495663938806">Rufen Sie uns gerne an <span aria-hidden="true">↗</span></a></div><figure class="house-photo"><img src="assets/haus.webp" width="800" height="600" alt="Das Fachwerkhaus der Ferienwohnungen Gauder in der Weißenburgstraße 11" loading="lazy"><figcaption><span>Ein Zuhause mit Fachwerkcharme.</span><span>Weißenburgstraße 11 · Pfieffe</span></figcaption></figure></section>
+
+    <section class="faq section-width" aria-labelledby="faq-title"><div><p class="eyebrow">GUT ZU WISSEN</p><h2 id="faq-title">Noch eine <em>Frage?</em></h2><p>Wir helfen Ihnen auch gerne<br>persönlich weiter.</p></div><div class="faq-list">
+      <details><summary>Wie kann ich eine Wohnung buchen?<span aria-hidden="true">+</span></summary><p>Teilen Sie uns Ihren Reisezeitraum und die Anzahl der Gäste mit – per E-Mail oder Telefon. Wir prüfen die Verfügbarkeit und besprechen das Angebot persönlich mit Ihnen. Eine Anfrage ist noch keine verbindliche Buchung.</p></details>
+      <details><summary>Was kostet der Aufenthalt?<span aria-hidden="true">+</span></summary><p>Den Preis für Ihre gewünschte Wohnung und Ihren Reisezeitraum erhalten Sie auf Anfrage. Bitte nennen Sie uns die Anzahl der Personen und die geplante Aufenthaltsdauer.</p></details>
+      <details><summary>Was ist in den Wohnungen vorhanden?<span aria-hidden="true">+</span></summary><p>Alle Wohnungen haben eine eigene Küche, ein Bad mit Dusche und WC, Internet und SAT-TV. Bettwäsche, Badehandtücher und Geschirrhandtücher sind vorhanden. Parkplätze stehen kostenfrei zur Verfügung.</p></details>
+      <details><summary>Wo bekomme ich den Schlüssel?<span aria-hidden="true">+</span></summary><p>Die Ferienwohnungen befinden sich in der Weißenburgstraße 11. Die Schlüsselabholung erfolgt in der Heisterstraße 2a, ebenfalls in Spangenberg-Pfieffe. Bitte stimmen Sie Ihre Ankunftszeit vorab mit uns ab.</p></details>
+      <details><summary>Sind längere oder berufliche Aufenthalte möglich?<span aria-hidden="true">+</span></summary><p>Unsere Ferienwohnungen können auch als Monteur- oder Pendlerwohnungen genutzt werden. Sprechen Sie mit uns über Ihren gewünschten Zeitraum und die Zahl der Personen.</p></details>
+    </div></section>
+
+    <section class="contact-section" id="anfrage" aria-labelledby="contact-title"><div class="section-width contact-grid"><div class="contact-copy"><p class="eyebrow light">DER ERSTE SCHRITT ZU IHRER AUSZEIT</p><h2 id="contact-title">Wann sehen<br><em>wir uns?</em></h2><p>Erzählen Sie uns von Ihren Plänen.<br>Wir kümmern uns um die passende Wohnung.</p><a class="contact-phone" href="tel:+495663938806">05663 · 938 806</a><a class="contact-mail" href="mailto:info@fewogauder.de">info@fewogauder.de <span aria-hidden="true">↗</span></a><div class="addresses"><div><h3>Hier wohnen Sie</h3><address>Weißenburgstraße 11<br>34286 Spangenberg-Pfieffe</address><a href="https://www.google.com/maps/search/?api=1&amp;query=Wei%C3%9Fenburgstra%C3%9Fe+11%2C+34286+Spangenberg-Pfieffe" target="_blank" rel="noopener noreferrer">Route öffnen <span aria-hidden="true">↗</span></a></div><div><h3>Hier holen Sie den Schlüssel ab</h3><address>Heisterstraße 2a<br>34286 Spangenberg-Pfieffe</address><a href="https://www.google.com/maps/search/?api=1&amp;query=Heisterstra%C3%9Fe+2a%2C+34286+Spangenberg-Pfieffe" target="_blank" rel="noopener noreferrer">Route öffnen <span aria-hidden="true">↗</span></a></div></div></div>
+      <div class="contact-panel"><form id="enquiry-form" hidden><h3>Ihre unverbindliche Anfrage</h3><p class="form-intro">Wir bereiten eine E-Mail mit Ihren Wünschen vor.</p><div class="form-row"><label>Ihr Name <span aria-hidden="true">*</span><input autocomplete="name" name="name" id="guest-name" required maxlength="100" placeholder="Vor- und Nachname"></label><label>Ihre E-Mail <span aria-hidden="true">*</span><input type="email" autocomplete="email" name="email" id="guest-email" required maxlength="160" placeholder="name@beispiel.de"></label></div><div class="form-row"><label>Anreise<input type="date" name="arrival" id="arrival"></label><label>Abreise<input type="date" name="departure" id="departure"></label></div><div class="form-row"><label>Anzahl der Gäste<select name="guests" id="guests"><option value="2">2 Personen</option><option value="1">1 Person</option><option value="3">3 Personen</option><option value="4">4 Personen</option><option value="5">5 Personen</option><option value="6">6 Personen</option><option value="7">7 Personen</option><option value="8">Mehr als 7 Personen</option></select></label><label>Gewünschte Wohnung<select name="apartment" id="apartment"><option value="offen">Ich bin noch offen</option><option value="3">Bis zu 3 Personen</option><option value="4">Bis zu 4 Personen</option><option value="7">Bis zu 7 Personen</option><option value="mehr">Mehrere / mit Zusatzräumen</option></select></label></div><label>Was möchten Sie uns noch sagen?<textarea name="message" id="guest-message" rows="3" maxlength="1800" placeholder="Zum Beispiel: Wir reisen mit zwei Kindern oder benötigen eine Unterkunft für ein berufliches Projekt."></textarea></label><p class="form-help">Reisedaten sind optional. <span aria-hidden="true">*</span> Pflichtangaben.<br>Ihre Angaben bleiben bis zum Versand in Ihrem Browser. Mehr dazu im <a href="datenschutz.html">Datenschutz</a>.</p><p class="form-error" id="form-error" role="alert" hidden></p><button class="button form-submit" type="submit">E-Mail-Anfrage vorbereiten <span aria-hidden="true">↗</span></button><p class="form-footnote">Sie prüfen und versenden die Nachricht anschließend in Ihrem E-Mail-Programm.</p></form><noscript><p>Für die vorbereitete Anfrage benötigen Sie JavaScript. Schreiben Sie uns direkt an <a href="mailto:info@fewogauder.de">info@fewogauder.de</a> oder rufen Sie uns an.</p></noscript>
+        <section class="enquiry-result" id="enquiry-result" tabindex="-1" hidden aria-labelledby="result-title"><span class="result-mark" aria-hidden="true">✓</span><h3 id="result-title">Ihre Anfrage ist vorbereitet.</h3><p>Es wurde noch nichts gesendet. Öffnen Sie jetzt Ihr E-Mail-Programm und senden Sie die Nachricht an uns.</p><textarea id="enquiry-preview" rows="10" readonly aria-label="Vorbereiteter Text Ihrer Anfrage"></textarea><a id="mail-link" class="button" href="mailto:info@fewogauder.de">E-Mail-Programm öffnen <span aria-hidden="true">↗</span></a><div class="result-tools"><button type="button" id="copy-enquiry">Anfrage kopieren</button><button type="button" id="edit-enquiry">Angaben bearbeiten</button></div><p class="copy-status" id="copy-status" role="status"></p><p class="form-footnote">Kein E-Mail-Programm eingerichtet? Kopieren Sie den Text und senden Sie ihn an <a href="mailto:info@fewogauder.de">info@fewogauder.de</a>.</p></section>
+      </div></div></section>
+  </main>
+  <footer class="site-footer section-width"><a class="footer-brand" href="./">gauder.</a><p>Ein Zuhause auf Zeit.<br>Im schönen Pfieffetal.</p><nav aria-label="Rechtliches"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="#anfrage">Kontakt</a></nav><small>© <span data-year>2026</span> Ferienwohnungen Gauder</small></footer>
+  <dialog id="gallery-dialog" aria-labelledby="gallery-title"><div class="gallery-top"><h2 id="gallery-title">Einblicke</h2><button type="button" class="gallery-close" aria-label="Bildergalerie schließen">Schließen <span aria-hidden="true">×</span></button></div><div class="gallery-stage"><button class="gallery-prev gallery-arrow" type="button" aria-label="Vorheriges Bild">←</button><figure><img id="gallery-image" src="assets/wohnung-3-kueche.webp" alt=""><figcaption id="gallery-caption"></figcaption></figure><button class="gallery-next gallery-arrow" type="button" aria-label="Nächstes Bild">→</button></div><p id="gallery-count" class="gallery-count" aria-live="polite"></p></dialog>
+</body>
+</html>
